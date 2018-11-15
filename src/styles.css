@@ -1,0 +1,43 @@
+html, body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.clock {
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+.hand {
+    background-color: black;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: rotate(-90deg);
+    transform-origin: 0%;
+}
+
+#hour {
+    width: 125px;
+    height: 3px;
+}
+
+#minute, #second {
+    width: 250px;
+}
+
+#minute {
+    height: 2px;
+}
+
+#second {
+    height: 1px;
+}
