@@ -18,26 +18,30 @@ html, body {
 
 .hand {
     background-color: black;
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 50%;
     transform: rotate(-90deg);
-    transform-origin: 0%;
+    -moz-transform: rotate(-90deg);
+    transform-origin: 0;
+    -moz-transform-origin: 0;
+    transition: all 0.05s;
+    -moz-transition: all 0.05s;
 }
 
 #hour {
     width: 125px;
-    height: 3px;
+    height: 5px;
 }
 
 #minute, #second {
-    width: 250px;
+    width: 245px;
 }
 
 #minute {
-    height: 2px;
+    height: 3px;
 }
 
 #second {
-    height: 1px;
+    height: 1.5px;
 }
