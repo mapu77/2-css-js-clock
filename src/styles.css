@@ -29,19 +29,19 @@ html, body {
     -moz-transition: all 0.05s;
 }
 
-#hour {
+#hours {
     width: 125px;
     height: 5px;
 }
 
-#minute, #second {
+#minutes, #seconds {
     width: 245px;
 }
 
-#minute {
+#minutes {
     height: 3px;
 }
 
-#second {
+#seconds {
     height: 1.5px;
 }

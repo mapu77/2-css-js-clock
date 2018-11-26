@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Day 2 of JavaScript 30 days challenge https://github.com/mapu77/js-30-days-challenge",
   "main": "main.js",
+  "directories": {
+    "test": "src"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
